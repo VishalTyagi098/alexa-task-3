@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="heading">
+      Calculator application
+    </div>
+    
+    <div class="container">
+      <div class="input">
+        <input
+          type="number"
+          class="input-textarea input-textarea1"
+          id="number1"
+          placeholder="First number"
+        />
+        <input
+          type="number"
+          class="input-textarea"
+          id="number2"
+          placeholder="Second number"
+        />
+      </div>
+      <div class="operations">
+        <button class="op-btn btn-add ">+</button>
+        <button class="op-btn btn-subtract">-</button>
+        <button class="op-btn btn-multiply">x</button>
+        <button class="op-btn btn-divide">&#xF7;</button>
+        <button class="op-btn btn-power">a<sup>b</sup></button>
+        <button class="op-btn btn-clear op-btn-clear">Clear</button>
+      </div>
+      <div class="output">
+        <textarea
+          name="input"
+          class="output-textarea"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Output"
+        ></textarea>
+      </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
